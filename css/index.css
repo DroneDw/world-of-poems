@@ -1,0 +1,100 @@
+
+    body{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: sans-serif;
+        background: linear-gradient(white , pink, rgb(255, 0, 0 , 0.5));
+    }
+    .all{
+        width: 95%;
+        height: 100vh;
+        margin: auto;
+    }
+    .nav{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .nav ul{
+        list-style: none;
+    }
+    .nav li{
+        margin-top:  29px;
+        display: inline;
+    }
+    .nav a{
+        
+        text-decoration: none;
+        color: black;
+        background-color: gray;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 0px 35px;
+        text-transform: capitalize;
+    }
+    .nav a:hover{
+        background-color: rgb(37, 15, 99 , 0.3);
+    }
+    .nav a:last-child{
+        border-right: none;
+    }
+    span{
+        color: rgb(197, 151, 65);
+    }
+    .span{
+        color: blue;
+    }
+    section{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 1.3rem;
+    }
+    h1{
+        text-shadow: 1.5px 1.5px 3px black;
+        letter-spacing: 3px;
+    }
+    article{
+        font-size: 1.3rem;
+    }
+    .container{
+        margin-top: 25px;
+    }
+    .container ul{
+        list-style: none;
+    }
+    .container li{
+        padding:  20px;
+        margin: 10px 0px;
+    }
+    .container a{
+        padding: 20px;
+        text-decoration: none;
+    }
+    .love{
+        background: linear-gradient(violet, pink);
+        color: white;
+        font-size: 2rem;
+        text-align: left;
+
+    }
+    .money{
+        background: linear-gradient(blue, pink);
+        color: whitesmoke;
+        font-size: 2rem;
+        text-align:right;
+    }
+    .spritual{
+        background: linear-gradient(red, pink);
+        font-size: 2rem;
+        color: whitesmoke;
+        text-align: left;
+
+    }
+    .magic{
+        background: linear-gradient(black, pink);
+        font-size: 2rem;
+        color: whitesmoke;
+        text-align: right;
+
+    }
